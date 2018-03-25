@@ -2,13 +2,15 @@ package com.example.binar.binarbinariahya_1202152323_studycase5;
 
 
 public class itemTodo {
+    //mendeklarasikan variabel yang dibutuhkan
     String todo, desc, prior;
-
+    //konstruktor
     public itemTodo(String todo, String desc, String prior) {
         this.todo = todo;
         this.desc = desc;
         this.prior = prior;
     }
+    //method setter dan getter nya
 
     public String getTodo() {
         return todo;
