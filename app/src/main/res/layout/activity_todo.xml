@@ -60,10 +60,14 @@
                 android:layout_height="50dp" />
         </LinearLayout>
     </LinearLayout>
+
     <Button
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/colorAccent"
         android:onClick="tambah"
         android:text="Tambah Todo"
-        android:layout_margin="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textColor="@android:color/background_light" />
 </LinearLayout>
